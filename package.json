@@ -1,0 +1,50 @@
+{
+  "name": "zeev-xml-form",
+  "version": "0.0.1",
+  "description": "Non official Zeev BPMS XML utility parser and builder",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rimraf export",
+    "prebuild": "npm run clean",
+    "build": "node lib/index.js",
+    "lint": "eslint . --max-warnings=0 --fix",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "lib/**/*.js": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedbernardo/zeev-xml-form.git"
+  },
+  "keywords": [
+    "zeev",
+    "orquestra",
+    "parser",
+    "bpms",
+    "xml"
+  ],
+  "author": "Pedro Bernardo <pedrovbernardo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedbernardo/zeev-xml-form/issues"
+  },
+  "homepage": "https://github.com/pedbernardo/zeev-xml-form#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.2",
+    "@commitlint/config-conventional": "^16.0.0",
+    "eslint": "7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@fast-csv/parse": "^4.3.6",
+    "colors": "^1.4.0",
+    "fast-xml-parser": "^4.0.1"
+  }
+}
