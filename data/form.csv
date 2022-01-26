@@ -1,0 +1,90 @@
+groupName,label,id,typeName,attrs,required
+Contrato,Contrato,numeroDaProposta,Text,readonly,S
+Contrato,Início Contrato,inicioContrato,Date,readonly,S
+Contrato,Término do Contrato,validadeDaProposta,Date,readonly,S
+Contrato,Observações,observacoes,Textarea,readonly,S
+Contrato,Versão,versaoDaProposta,Text,readonly,S
+Contrato,Autorizado em,dataDaAprovacao,Date,readonly,S
+Contrato,Criação no CRM,dataDeEmissao,Date,readonly,S
+Contrato,Fechamento no CRM,dataFinal,Date,readonly,S
+Contrato,Tipo de Contrato,tipoContrato,Text,readonly,S
+Unidade Prospectora,Unidade,unidadeProspectora,Text,readonly,S
+Unidade Prospectora,Responsável,responsavelUnidade,Text,readonly,S
+Unidade Prospectora,Código Unidade (CodArea),codUnidadeProspectora,Text,,S
+Agente de Mercado,Nome,vendedor,Text,readonly,S
+Agente de Mercado,Email,emailAgente,Text,readonly,S
+Agente de Mercado,Celular,telefoneCelAgente,Text,readonly,S
+Precificação,Desconto,desconto,Text,readonly,S
+Precificação,Parcelas,parcelamento,Text,readonly,S
+Precificação,Valor da Parcela,valorParcela,Text,readonly,S
+Precificação,Valor Total,valorTotalDaProposta,Text,readonly,S
+Precificação,Tipo de Faturamento,tipoDeFaturamento,Text,readonly,S
+Empresa,Razão Social,razaoSocial,Text,readonly,S
+Empresa,Nome Fantasia,nomeFantasia,Text,readonly,S
+Empresa,CNO,Cei,Text,readonly,S
+Empresa,CPF,cpfCliente,Text,readonly,S
+Empresa,CNPJ,cnpjCliente,Text,readonly,S
+Empresa,Cidade,cidadeCliente,Text,readonly,S
+Empresa,Estado,estadoCliente,Text,readonly,S
+Empresa,Código Impresa (ID BIC),codEmpresa,Text,readonly,S
+Empresa,Telefone,telefoneCliente,Text,,S
+Empresa,Inscrição Estadual,inscricaoEstadual,Text,readonly,S
+Empresa,Inscrição Municipal,inscricaoMunicipal,Text,readonly,S
+Empresa,Código CNAE,cnae,Text,readonly,S
+Empresa,Sub-Classe CNAE,subClasse,Text,readonly,S
+Empresa,Grau de Risco,grauRisco,Text,readonly,S
+Empresa,Logradouro,ruaCliente,Text,,S
+Empresa,Número,numeroCliente,Text,,S
+Empresa,Complemento,complementoCliente,Text,,S
+Empresa,CEP,cepCliente,Text,,S
+Empresa,Bairro,bairroCliente,Text,,S
+Empresa,Tipo da Conta,tipoConta,Text,readonly,S
+Empresa,Tipo Pessoa,tipoPessoa,Text,readonly,S
+Empresa,Porte,porteEmpresa,Text,,S
+Empresa,Quantidade de Empregados,qtdeEmpregado,Text,,S
+Representante Legal,Email,emailRepresentante,Text,,S
+Representante Legal,Nome,nomeRepresentante,Text,,S
+Representante Legal,Celular,telefoneCelRepresentante,Text,,S
+Empresa - Contatos,Nome,contato,Text,,S
+Empresa - Contatos,Telefone Comercial,telefoneComercial,Text,,S
+Empresa - Contatos,Email,emailEmpresa,Text,,S
+Empresa - Contatos,Cargo,cargoEmpresa,Text,,
+Produtos,Produto,nomeProduto,Text,readonly,S
+Produtos,Código CRM,codProduto,Text,,S
+Produtos,Combo,combo,Text,,S
+Produtos,Centro de Resultado,centroResultado,Text,,S
+Produtos,Conta Contábil,contaContabil,Text,,S
+Produtos,Quantidade,quantidade,Text,readonly,S
+Produtos,Subtotal,subTotal,Text,readonly,S
+Produtos,Unidade Executora,unidadeExecutante,Text,,S
+Produtos,Unidade Executora - CNPJ,cnpjUnidadeExecutora,Text,,S
+Produtos,Responsável Técnico,responsavelTecnico,Text,,S
+Produtos,Responsável Técnico - Email,emailRespTecnico,Text,,S
+Produtos,Empresa de Atendimento,empresaDeAtendimento,Text,readonly,S
+Produtos,Empresa de Atendimento - CNPJ/CNO,cnpjEmpresaDeAtendimento,Text,readonly,S
+Produtos,Empresa Atendimento - Endereço,endEmpAtendimento,Text,,S
+Produtos,Código Empresa Atendimento (ID BIC),codigoEmpresaAtend,Text,readonly,S
+Produtos,Código Responsável Técnico (CodUser),codigoResponsavelTecnico,Text,,S
+Produtos,Código Unidade Executante (CodArea),codigoUnidadeExecutanteOrquestra,Text,,S
+Produtos,Endereço da Unidade Executora,enderecoDaUnidadeExecutora,Text,,S
+Produtos,Início da Execução,inicioExecucaoServ,Date,,S
+Produtos,Término da Execução,terminoExecucaoServ,Date,,S
+Produtos,Tipo de Executor,tipoDoExecutor,Text,,S
+Produtos,Executor,executor,Text,,S
+Produtos,Executor - Email,emailDoExecutor,Text,,S
+Produtos,Executor - Código (CodUser),executorTxt,Text,,S
+Produtos,Código do Executor,codExecutor,Text,,S
+Produtos,Credenciado,credenciado,Text,,S
+Produtos,Credenciado - Email,emailDoCredenciado,Text,,S
+Produtos,Credenciado - Razão Social,razaoSocialCredenciado,Text,,S
+Produtos,Credenciado - Código (CodUser),executorServCredTxt,Text,,S
+Produtos,Responsável - Código (CodUser),responsavelPelaExecucaoDoServico,Text,,S
+Produtos,Responsável - CRM,crm,Text,,S
+Produtos,Responsável - CREA/MTE,creamte,Text,,S
+Produtos,Especialista,engenheiroDeSeguranca,Text,,S
+Produtos,Especialista - Conselho de Classe,crea,Text,,S
+Produtos,Especialista - Email,emailDoEngenheiroDeSeguranca,Text,,S
+Produtos,Especialista - Código (CodUser),engenheiroTxt,Text,,S
+Documentos,Autorização de Serviço (PDF),autorizacaoDeServico,Text,,
+Documentos,Carta de Designação (PDF),cartaDeDesignacao,Text,,
+Documentos,Cronograma (PDF),cronograma,Text,,
